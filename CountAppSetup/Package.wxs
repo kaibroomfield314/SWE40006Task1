@@ -1,0 +1,10 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package Id="SwinburneStudent.CountApp" Name="CountApp" Manufacturer="SwinburneStudent" Version="1.0.0">
+    <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+
+    <Feature Id="Main">
+      <ComponentGroupRef Id="HarvestedComponents" />
+    </Feature>
+
+  </Package>
+</Wix>
